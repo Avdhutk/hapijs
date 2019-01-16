@@ -1,0 +1,25 @@
+{
+  "name": "hapi-backend",
+  "version": "1.0.0",
+  "description": "Practicing hapi.js setup",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hapi",
+    "node",
+    "api",
+    "plugins"
+  ],
+  "author": "Avdhutk",
+  "license": "ISC",
+  "dependencies": {
+    "glue": "^5.0.0",
+    "hapi": "^17.8.1",
+    "mysql2": "^1.6.4",
+    "nodemon": "^1.18.9",
+    "sequelize": "^4.42.0"
+  }
+}
